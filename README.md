@@ -1,6 +1,14 @@
 # git-opinions
 A collection of my opinions on git usage and some helpful common commands
 
+# Initial setup
+IMPORTANT: Make sure these global settings are correctly set on a new machine. If you don't set this up correctly, when you push to a remote like github, your identity won't be correctly associated with your commits. This can result in weird situations like having multiple contributors on a repo when it's really just one person. The email address is the most important b/c that's what is used as a unique identifier.
+
+```
+git config --global user.name "FIRST_NAME LAST_NAME"
+git config --global user.email "MY_NAME@example.com"
+```
+
 # The most common commands
 Don't leave home without these
 
